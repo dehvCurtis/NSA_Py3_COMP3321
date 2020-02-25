@@ -5,6 +5,7 @@ for item in list:
     print('\t',item)
 
 print('Total:')
+
 breadx5 = list["bread"] * 5
 print(breadx5)
 print(list["apples"] + list["oranges"] + list["dog food"] + list["milk"] + breadx5)
