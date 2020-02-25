@@ -1,0 +1,1 @@
+for item in ["apples","oranges","dog food","milk","bread"]: print(item)
