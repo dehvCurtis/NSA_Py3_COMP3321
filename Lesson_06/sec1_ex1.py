@@ -8,3 +8,7 @@ class Query(object):
     def __str__(self):
         return f"Class: {self.classification} Just: {self.justification} Select: {self.selector}"
 
+class RangedQuery(Query):
+    def begin_end(self):
+        import datetime
+        print(datetime.datetime.now())
